@@ -21,7 +21,7 @@ const questions = [
 }, {
     type: "input",
     name: "usage",
-    message: "How to you use your application?"
+    message: "How do you use your application?"
 }, {
     type: "input",
     name: "contribution",
@@ -37,32 +37,32 @@ const questions = [
     choices: ["GNU General Public License 3.0", "MIT", "Apache License 2.0", "Mozilla Public License 2.0", "none"],
 }, {
     type: "input",
-    name: "GitHub",
+    name: "github",
     message: "What is your GitHub username?",
 }, {
     type: "input",
-    name: "Email",
+    name: "email",
     message: "What is your email?",
 }];
 
-// TODO: Create a function to write README file
+// This function writes README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, function (err){
         if (err) {
             return console.log(err);
         }
-        console.log("your README.md has been created!");
     });
 }
 
-// TODO: Create a function to initialize app
+// This function initializes app
 async function init() {
-    const answers = inquirer.prompt(questions);
+    const answers = await inquirer.prompt(questions);
 
-    let readmeAnswers = generateMarkdown(answers);
+    let readmeAnswers = await generateMarkdown(answers);
 
     writeToFile("README.md", readmeAnswers);
 }
+
 
 // Function call to initialize app
 init();
