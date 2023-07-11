@@ -11,26 +11,27 @@
 8. [E-mail](#E-mail)
 
 ## Description
-A generator that makes creating README files easy 
+to create README files
   
 ## Installation:
-go to github
+123
   
 ## Usage:
-use the integrated terminal
+open integrated terminal
   
 ## Contribution Guidelines:
-contribute
+contribute!
+contributors include: Akon (TA) and Lelo (tutor)
   
 ## Test:
-na
+run it
   
 ## License
 ## License:
       
-      This project is licensed under MIT.
+      This project is licensed under GNU General Public License 3.0.
       
-      [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT);
+      [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0);
       
   
 ## GitHub
