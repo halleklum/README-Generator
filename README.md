@@ -1,4 +1,4 @@
-# f
+# README Generator
   
 ## Table of Contents:
 1. [Description](#description) 
@@ -11,30 +11,30 @@
 8. [E-mail](#E-mail)
 
 ## Description
-f 
+A generator that makes creating README files easy 
   
 ## Installation:
-f
+go to github
   
 ## Usage:
-f
+use the integrated terminal
   
 ## Contribution Guidelines:
-f
+contribute
   
 ## Test:
-f
+na
   
 ## License
 ## License:
       
-      This project is licensed under GNU General Public License 3.0.
+      This project is licensed under MIT.
       
-      [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0);
+      [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT);
       
   
 ## GitHub
-f
+halleklum
     
 ## E-mail
-f
+halleklum@gmail.com
